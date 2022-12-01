@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,100&family=Bellefair&family=Epilogue:ital,wght@0,500;1,500&family=Permanent+Marker&family=Roboto+Serif:opsz,wght@8..144,100&family=Roboto:ital,wght@1,500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./image/tic-tac-toe-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    width: 550px;
+    height: 550px;
+    background-color: purple;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: .6rem;
+    grid-row-gap: .6rem;
+}
+.box {
+    color: #000;
+    border-radius: 10px;
+    font-size: 56px;
+    font-family: 'Permanent Marker', cursive;
+}
+.restart {
+    width: 200px;
+    height: 50px;
+    background-color: purple;
+    color: #eeee;
+    margin-top: 20px;
+    font-size: 24px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: 'Permanent Marker', cursive;
+}
+#status {
+    font-size: 48px;
+    font-family: 'Permanent Marker', cursive;
+    color: #eeee;
+}
+#title {
+    color: #eeee;
+    font-size: 48px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+
+
+
